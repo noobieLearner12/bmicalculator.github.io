@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+  background: #01aaff;
+  min-height: 100vh;
+
+ 
+}
+#main{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 1080px;
+    margin: auto;
+
+}
+.container{
+    /* border: 2px solid black; */
+    margin-bottom: 1 rem;
+    padding: 1rem;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+span{
+    color: blanchedalmond;
+    font-size: 1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#form{
+    border: 2px solid black;
+    width: 500px;
+    height: 300px;
+    padding: 1rem;
+    
+}
+#form, #weight{
+    margin: 8px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+    border-radius: 23px;
+    border: 1px black solid;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#form, #height{
+    margin: 8px;
+    text-align: center;
+    font-size: 1.2rem;
+    border-radius: 23px;
+    border: 1px black solid;
+}
+#form{
+    display: flex;
+    flex-direction: column;
+    
+}
+#btn{
+     position: absolute;
+     bottom: 7.3rem;
+     
+     /* left: 50%; */
+     transform: translate(-50%,-50%);
+    padding: 8px;
+    border-radius: 12px;
+    border: 1px black solid;
+    font-weight: bold;
+    font-size: 1.3rem;
+    background-color: rgb(255, 252, 71);
+  
+}
+#info{
+  font-size: 1.5rem;
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.footer{
+    margin-top: 3rem;
+    font-size: 1.2rem;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.reset{
+    padding: 8px;
+    color: white;
+    border-radius: 12px;
+    border: 1px rgb(0, 0, 0) solid;
+    font-weight: bold;
+    font-size: 1.3rem;
+    background-color: rgb(255, 0, 0);
+    position: relative;
+    /* display: inline-block; */
+}
